@@ -1,0 +1,24 @@
+{
+  "name": "nxapi-mongodb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "next": "14.0.3",
+    "nodemon": "^3.0.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "description": "> Next API with MongoDB",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,59 @@
+# Ejemplos
+
+POST https://nxapi-mongodb.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Leche", 
+    "precio": 20 
+}
+
+### 
+
+POST https://nxapi-mongodb.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Cereales", 
+    "precio": 21 
+}
+
+### 
+
+GET https://nxapi-mongodb.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+###
+
+GET https://nxapi-mongodb.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+###
+
+PUT https://nxapi-mongodb.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Pan", 
+    "precio": 42
+}
+
+###
+
+DELETE https://nxapi-mongodb.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+### 
+
+POST https://nxapi-mongodb.vercel.app/api/productos HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Pasta", 
+    "precio": 21 
+}
+
+### 
+
+DELETE https://nxapi-mongodb.vercel.app/api/productos
+content-type: application/json
